@@ -23,6 +23,7 @@ jobs:
           mkdir ~/.gpgkey
           echo $GPG_KEY > ~/.gpgkey/secring.gpg.b64
           base64 -d -i ~/.gpgkey/secring.gpg.b64 -o ~/.gpgkey/secring.gpg
+          gpg --no-default-keyring --keyring /dev/null --secret-keyring ~/.gpgkey/secring.gpg --list-secret-keys
         env:
           GPG_KEY: ${{ secrets.GPG_KEY }}
       - name:  Deploy to Sonatype
