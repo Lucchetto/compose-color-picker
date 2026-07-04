@@ -24,6 +24,7 @@ import androidx.navigation.NavController
 import com.godaddy.android.colorpicker.harmony.ColorHarmonyMode
 import com.godaddy.android.colorpicker.harmony.HarmonyColorPicker
 import com.godaddy.android.colorpicker.theme.BackButton
+import io.github.lucchetto.colorpicker.demo.R
 
 @Composable
 fun HarmonyColorPickerScreen(navController: NavController) {

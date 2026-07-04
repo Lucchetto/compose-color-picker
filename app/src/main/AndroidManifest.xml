@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ComposeColorPicker">
         <activity
-            android:name=".SampleColorPickerActivity"
+            android:name="com.godaddy.android.colorpicker.SampleColorPickerActivity"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.ComposeColorPicker.NoActionBar">

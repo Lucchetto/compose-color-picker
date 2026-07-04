@@ -32,6 +32,7 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.godaddy.android.colorpicker.theme.ComposeColorPickerTheme
+import io.github.lucchetto.colorpicker.demo.R
 
 @ExperimentalGraphicsApi
 class SampleColorPickerActivity : ComponentActivity() {
