@@ -1,7 +1,7 @@
 plugins {
     kotlin("multiplatform")
-    id("org.jetbrains.dokka") version "1.7.20"
-    id("org.jetbrains.compose") version "1.3.0"
+    id("org.jetbrains.dokka") version "1.9.20"
+    id("org.jetbrains.compose") version "1.7.0"
     id("com.android.library")
     id("maven-publish")
     id("signing")
@@ -15,13 +15,16 @@ kotlin {
     js(IR) {
         browser()
     }
+    iosArm64()
+    iosSimulatorArm64()
+    iosX64()
 
     sourceSets {
         val commonMain by getting {
             dependencies {
                 api(compose.runtime)
                 implementation(compose.material)
-                implementation("com.github.ajalt.colormath:colormath:3.2.0")
+                implementation("com.github.ajalt.colormath:colormath:3.4.0")
             }
         }
         val commonTest by getting {
@@ -29,7 +32,7 @@ kotlin {
                 implementation(kotlin("test"))
             }
         }
-        val androidTest by getting {
+        val androidUnitTest by getting {
             dependencies {
                 implementation("junit:junit:4.13.2")
             }
