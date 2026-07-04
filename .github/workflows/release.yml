@@ -5,7 +5,7 @@ on:
 
 jobs:
   deploy:
-    runs-on: ubuntu-latest
+    runs-on: macos-26
     timeout-minutes: 30
     env:
       TERM: dumb
@@ -17,7 +17,7 @@ jobs:
         uses: actions/setup-java@v3
         with:
            distribution: 'zulu' # See 'Supported distributions' for available options
-           java-version: '11'
+           java-version: '17'
       - name: Configure GPG Key
         run: |
           mkdir ~/.gpgkey
