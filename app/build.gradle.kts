@@ -20,11 +20,11 @@ dependencies {
 
 android {
     namespace = "io.github.lucchetto.colorpicker.demo"
-    compileSdk = 33
+    compileSdk = 34
     defaultConfig {
         applicationId = namespace
         minSdk = 21
-        targetSdk = 33
+        targetSdk = 34
         versionCode = 1
         versionName = "1.0"
     }
