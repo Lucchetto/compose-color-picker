@@ -8,7 +8,7 @@ import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.ArrowBack
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.res.stringResource
-import com.godaddy.android.colorpicker.R
+import io.github.lucchetto.colorpicker.demo.R
 
 @Composable
 fun BackButton(onBackPress: () -> Unit) {

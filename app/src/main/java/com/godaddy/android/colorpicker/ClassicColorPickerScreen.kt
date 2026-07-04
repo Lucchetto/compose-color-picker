@@ -17,6 +17,7 @@ import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
 import com.godaddy.android.colorpicker.theme.BackButton
 import com.godaddy.android.colorpicker.theme.ComposeColorPickerTheme
+import io.github.lucchetto.colorpicker.demo.R
 
 @Composable
 fun ClassicColorPickerScreen(navController: NavController) {
