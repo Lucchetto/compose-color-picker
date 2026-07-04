@@ -6,7 +6,7 @@ plugins {
     id("org.jetbrains.compose") version "1.7.0"
 }
 
-group = "com.godaddy"
+group = "io.github.lucchetto.colorpicker.demo"
 version = "1.0"
 
 kotlin {

@@ -12,7 +12,7 @@ buildscript {
     }
 }
 
-group = "com.godaddy"
+group = "io.github.lucchetto.colorpicker"
 version = "0.5.0"
 
 allprojects {

@@ -1,10 +1,12 @@
-# Android Jetpack Compose Color Picker 🎨
+# Compose Color Picker 🎨
 
-![Maven Central](https://img.shields.io/maven-central/v/com.godaddy.android.colorpicker/compose-color-picker-android?style=flat-square)
+![Maven Central](https://img.shields.io/maven-central/v/io.github.lucchetto.colorpicker/compose-color-picker?style=flat-square)
 
-A component that provides two different HSV color pickers, written in Jetpack Compose.
+A multiplatform Compose component that provides two different HSV color pickers.
 1. ClassicColorPicker - Square picker with alpha channel
 2. HarmonyColorPicker - Circular wheel with harmony modes (ie complementary, triadic, analogous, shades, monochromatic, tetradic)
+
+Supports Android, Desktop (JVM), JS (Browser), and iOS (arm64 + simulator).
 
 
 https://user-images.githubusercontent.com/9973046/154516879-495a6816-9595-49b9-beaf-dafc2e1110ec.mp4
@@ -17,12 +19,12 @@ https://user-images.githubusercontent.com/9973046/154515203-f0818a14-3bb0-4e5a-9
 Add the dependency to your `build.gradle` file:
 
 ```
-implementation 'com.godaddy.android.colorpicker:compose-color-picker:<latest-version>'
+implementation 'io.github.lucchetto.colorpicker:compose-color-picker:<latest-version>'
 
 // with Android ColorInt extensions
-implementation 'com.godaddy.android.colorpicker:compose-color-picker-android:<latest-version>'
+implementation 'io.github.lucchetto.colorpicker:compose-color-picker-android:<latest-version>'
 // desktop jvm version
-implementation 'com.godaddy.android.colorpicker:compose-color-picker-jvm:<latest-version>'
+implementation 'io.github.lucchetto.colorpicker:compose-color-picker-jvm:<latest-version>'
 ```
 
 Add `ClassicColorPicker` to your Compose hierarchy:
@@ -121,6 +123,8 @@ HarmonyColorPicker(
 ```
 
 # Library Contribution Information
+
+This is a fork of [GoDaddy's compose-color-picker](https://github.com/godaddy/compose-color-picker) with added iOS support.
 
 ## Code Formatting
 

@@ -51,7 +51,7 @@ kotlin {
 }
 
 android {
-    namespace = "com.godaddy.common.colorpicker"
+    namespace = "io.github.lucchetto.colorpicker"
     compileSdk = 33
     defaultConfig {
         minSdk = 21
@@ -106,7 +106,7 @@ signing {
 publishing {
 
     publications.withType(MavenPublication::class) {
-        groupId = "com.godaddy.android.colorpicker"
+        groupId = "io.github.lucchetto.colorpicker"
         artifactId = "compose-color-picker"
         version = "0.7.0"
 
@@ -115,8 +115,8 @@ publishing {
         pom {
 
             name.set("compose-color-picker")
-            description.set("A compose component for picking a color")
-            url.set("https://github.com/godaddy/compose-color-picker")
+            description.set("A multiplatform Compose component for picking a color (Android, JVM, JS, iOS)")
+            url.set("https://github.com/Lucchetto/compose-color-picker")
 
             licenses {
                 license {
@@ -126,17 +126,17 @@ publishing {
             }
             developers {
                 developer {
-                    id.set("godaddy")
-                    name.set("GoDaddy")
+                    id.set("Lucchetto")
+                    name.set("Lucchetto")
                 }
             }
             organization {
-                name.set("GoDaddy")
+                name.set("Lucchetto")
             }
             scm {
-                connection.set("scm:git:git://github.com/godaddy/compose-color-picker.git")
-                developerConnection.set("scm:git:ssh://git@github.com/godaddy/compose-color-picker.git")
-                url.set("https://github.com/godaddy/compose-color-picker")
+                connection.set("scm:git:git://github.com/Lucchetto/compose-color-picker.git")
+                developerConnection.set("scm:git:ssh://git@github.com/Lucchetto/compose-color-picker.git")
+                url.set("https://github.com/Lucchetto/compose-color-picker")
             }
         }
     }
