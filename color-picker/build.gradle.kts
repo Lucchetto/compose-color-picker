@@ -108,7 +108,7 @@ publishing {
     publications.withType(MavenPublication::class) {
         groupId = "io.github.lucchetto.colorpicker"
         artifactId = "compose-color-picker"
-        version = "0.7.0"
+        version = "0.7.1"
 
         artifact(tasks["javadocJar"])
 
