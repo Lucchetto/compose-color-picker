@@ -18,7 +18,7 @@ kotlin {
     sourceSets {
         val jvmMain by getting {
             dependencies {
-                implementation(project(":color-picker"))
+                implementation(project(":compose-color-picker"))
                 implementation(compose.desktop.currentOs)
             }
         }

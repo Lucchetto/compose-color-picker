@@ -11,7 +11,7 @@ kotlin {
     sourceSets {
         val jsMain by getting  {
             dependencies {
-                implementation(project(":color-picker"))
+                implementation(project(":compose-color-picker"))
             }
         }
     }

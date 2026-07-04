@@ -10,4 +10,4 @@ rootProject.name = "ComposeColorPicker"
 include (":app")
 include (":desktop")
 include (":jsApp")
-include (":color-picker")
+include (":compose-color-picker")

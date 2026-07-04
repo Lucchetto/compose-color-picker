@@ -10,7 +10,7 @@ version = "1.0"
 
 
 dependencies {
-    implementation(project(":color-picker"))
+    implementation(project(":compose-color-picker"))
     implementation ("androidx.activity:activity-compose:1.6.1")
     implementation("com.google.android.material:material:1.7.0")
     implementation("androidx.navigation:navigation-runtime-ktx:2.5.3")
@@ -19,9 +19,10 @@ dependencies {
 }
 
 android {
+    namespace = "io.github.lucchetto.colorpicker.demo"
     compileSdk = 33
     defaultConfig {
-        applicationId = "io.github.lucchetto.colorpicker.demo"
+        applicationId = namespace
         minSdk = 21
         targetSdk = 33
         versionCode = 1
