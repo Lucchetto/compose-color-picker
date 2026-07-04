@@ -1,9 +1,9 @@
 # Contributing
 
-Everyone is welcome to contribute to GoDaddy's Open Source Software.
-Contributing doesn’t just mean submitting pull requests. To get involved,
+Everyone is welcome to contribute to this project.
+Contributing doesn't just mean submitting pull requests. To get involved,
 you can report or triage bugs, and participate in discussions on the
-evolution of each project.
+evolution of the project.
 
 No matter how you want to get involved, we ask that you first learn what’s
 expected of anyone who participates in the project by reading the Contribution
@@ -63,7 +63,7 @@ contributors about the change, discuss the best way to go about implementing it.
 > Tip: Keep your main branch pointing at the original repository and make
 >  pull requests from branches on your fork. To do this, run:
 >   ```
-> git remote add upstream https://github.com/godaddy/compose-color-picker.git
+> git remote add upstream https://github.com/Lucchetto/compose-color-picker.git
 > git fetch upstream
 > git branch --set-upstream-to=upstream/main main
 >   ```
@@ -110,6 +110,6 @@ guide with respect to patterns, naming, documentation and testing.
 - [General GitHub Documentation](https://help.github.com/)
 - [GitHub Pull Request documentation](https://help.github.com/send-pull-requests/)
 
-[issues]: https://github.com/godaddy/compose-color-picker/issues
+[issues]: https://github.com/Lucchetto/compose-color-picker/issues
 [coc]: ./CODE_OF_CONDUCT.md
 [fork]: https://help.github.com/en/articles/fork-a-repo

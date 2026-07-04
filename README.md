@@ -1,10 +1,12 @@
-# Android Jetpack Compose Color Picker 🎨
+# Compose Color Picker 🎨
 
 ![Maven Central](https://img.shields.io/maven-central/v/com.godaddy.android.colorpicker/compose-color-picker-android?style=flat-square)
 
-A component that provides two different HSV color pickers, written in Jetpack Compose.
+A multiplatform Compose component that provides two different HSV color pickers.
 1. ClassicColorPicker - Square picker with alpha channel
 2. HarmonyColorPicker - Circular wheel with harmony modes (ie complementary, triadic, analogous, shades, monochromatic, tetradic)
+
+Supports Android, Desktop (JVM), JS (Browser), and iOS (arm64 + simulator).
 
 
 https://user-images.githubusercontent.com/9973046/154516879-495a6816-9595-49b9-beaf-dafc2e1110ec.mp4
@@ -121,6 +123,8 @@ HarmonyColorPicker(
 ```
 
 # Library Contribution Information
+
+This is a fork of [GoDaddy's compose-color-picker](https://github.com/godaddy/compose-color-picker) with added iOS support.
 
 ## Code Formatting
 
