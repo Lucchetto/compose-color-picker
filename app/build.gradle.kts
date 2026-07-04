@@ -5,7 +5,7 @@ plugins {
     kotlin("android")
 }
 
-group = "com.godaddy"
+group = "io.github.lucchetto.colorpicker.demo"
 version = "1.0"
 
 
@@ -21,7 +21,7 @@ dependencies {
 android {
     compileSdk = 33
     defaultConfig {
-        applicationId = "com.godaddy.android.colorpicker"
+        applicationId = "io.github.lucchetto.colorpicker.demo"
         minSdk = 21
         targetSdk = 33
         versionCode = 1

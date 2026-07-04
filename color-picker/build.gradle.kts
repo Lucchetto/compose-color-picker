@@ -51,7 +51,7 @@ kotlin {
 }
 
 android {
-    namespace = "com.godaddy.common.colorpicker"
+    namespace = "io.github.lucchetto.colorpicker"
     compileSdk = 33
     defaultConfig {
         minSdk = 21
@@ -106,7 +106,7 @@ signing {
 publishing {
 
     publications.withType(MavenPublication::class) {
-        groupId = "com.godaddy.android.colorpicker"
+        groupId = "io.github.lucchetto.colorpicker"
         artifactId = "compose-color-picker"
         version = "0.7.0"
 
